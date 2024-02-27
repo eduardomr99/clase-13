@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+.boton, .main .section-1 button {
+  width: 50%;
+  background-color: #011627;
+  color: #fdfffc;
+  padding: 10px;
+  margin: 5%; }
+
+.flex-center, .main .section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.header {
+  background-color: #C01A7D; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .header ul a {
+      background-color: #ffe4c428;
+      color: white;
+      justify-content: center;
+      font-family: "Anta", sans-serif;
+      display: flex;
+      width: 150px;
+      margin: 20px;
+      padding: 5px; }
+      .header ul a:hover {
+        background-color: #ffe4c48a; }
+
+.main {
+  background-color: #fdfffc; }
+  .main h1 {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    padding: 10px; }
+  .main .section-1 {
+    border: solid #011627 1px;
+    max-width: 50vw; }
+    .main .section-1 button {
+      background-color: pink;
+      color: #011627;
+      font-family: monospace;
+      text-align: center;
+      padding: 20px; }
+  .main .section-2 {
+    background-color: blue;
+    color: #011627;
+    font-family: monospace;
+    text-align: space-evenly;
+    padding: 20px;
+    width: 50%; }
+
+footer {
+  background-color: #C01A7D; }

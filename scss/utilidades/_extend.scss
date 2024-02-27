@@ -1,0 +1,26 @@
+.boton{
+
+    width:50%;
+    background-color: $azul;
+    color:$blanco;
+    padding: 10px;
+    margin: 5%;
+
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+//MIXIN
+
+@mixin fondo-destacado ($color-fondo, $alineacion-texto) {
+    background-color: $color-fondo;
+    color: $azul;
+    font-family: monospace;
+    text-align: $alineacion-texto;
+    padding: 20px;
+}

@@ -1,0 +1,28 @@
+.main {
+    background-color: $blanco;
+
+    h1 {
+        text-align: center;
+        font-family: $fuente-titulo;
+        padding: 10px;
+    }
+
+    .section-1 {
+        border: solid $azul 1px;
+        max-width: (100vw/2);
+        @extend .flex-center;
+
+
+        button {
+            @extend .boton;
+            @include fondo-destacado(pink,center);
+
+        }
+
+    }
+
+    .section-2{
+        @include fondo-destacado(blue,space-evenly);
+        width: 50%;
+    }
+}
